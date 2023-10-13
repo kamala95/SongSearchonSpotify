@@ -8,7 +8,7 @@ import org.testng.Assert;
 import java.time.Duration;
 
 public class SongSearchOnSpotify {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args)  {
         WebDriver driver = null;
 
         try{
