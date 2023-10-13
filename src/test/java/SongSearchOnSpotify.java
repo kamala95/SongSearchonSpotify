@@ -25,7 +25,7 @@ public class SongSearchOnSpotify {
             // Enter valid credentials (email and password).
             String email = "emilyjohnson202324@gmail.com";
             String password = "Duotech2023";
-            Thread.sleep(1000);
+
             driver.findElement(By.xpath("//input[@id='login-username']")).sendKeys(email);
             driver.findElement(By.xpath("//input[@id='login-password']")).sendKeys(password);
             driver.findElement(By.xpath("//button[@data-testid='login-button']")).click();
@@ -59,7 +59,6 @@ public class SongSearchOnSpotify {
              System.out.println(expect.isDisplayed());
 
         }finally {
-            Thread.sleep(2000);
             driver.quit();
         }
         }
